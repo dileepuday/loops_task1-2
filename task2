@@ -1,0 +1,8 @@
+#print all positive numbers
+
+x=[int(x) for x in input("Enter multiple value: ").split()]
+
+
+for nos in x:
+    if nos >= 0:
+        print(nos,end=' ')
